@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* =======================   common css   ===================== */
+
+.container{
+    width: 1170px;
+    height: 100vh;
+    background: #26afaf;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container #one{
+    width: 500px;
+    height: 100px;
+    padding-left: 270px;
+    background: #efdcf7;
+    margin-top: 100px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+.container ::placeholder{
+    color: #20436b;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    /* font-size: 23px; */
+}
+.container button{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    background: #1b58b3;
+    color: #9ea8b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #12213d;
+    box-sizing: border-box;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+}
+.container button:hover{
+    background: #1a3a69;
+    color: #e3e6e9;
+}
+.container #msg{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #203966;
+}
